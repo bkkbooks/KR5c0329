@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0329/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0329/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 軒轅黃帝水經藥法
+  date: '2015-08-29 00:56:10.904815'
+  source:
+    repository: kanripo
+    path: KR5c0329
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0329_000-ZTDZ.yaml, hash: 'sha256:2b397a6000a43481d76c3d7a143f08796ce63a3d1a1b418f173986a56b56216f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0329_000-ZTDZ.markers.yaml, hash: 'sha256:81cd6aebc005bdc8b9b2d72b19a611b65e4b47fb883595efac0e45bd6bc2cfae'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0329_SJB_000-190318c
+    span:
+    - body
+    - 0
+    - 3347
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:10a6247afa087003ae6d581af924c160729e6aafd347f22c97a38f4c158e5b6d
